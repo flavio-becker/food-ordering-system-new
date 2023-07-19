@@ -15,7 +15,6 @@ import org.springframework.validation.annotation.Validated;
 class OrderApplicationServiceImpl implements OrderApplicationService {
 
     private final OrderCreateCommandHandler orderCreateCommandHandler;
-
     private final OrderTrackCommandHandler orderTrackCommandHandler;
 
     public OrderApplicationServiceImpl(OrderCreateCommandHandler orderCreateCommandHandler,
